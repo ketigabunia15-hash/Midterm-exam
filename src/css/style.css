@@ -66,3 +66,53 @@ nav ul li a {
   border-radius: 12px;
   transition: 0.3s;
 }
+
+.information .filter-card {
+  background-color: #fff;
+  width: 280px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 20px 24px;
+}
+
+.information .filter-section {
+  margin-bottom: 24px;
+}
+
+.information .section-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.information select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 14px;
+  outline: none;
+}
+
+.information label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.information label input[type="checkbox"] {
+  accent-color: #16a34a;
+  margin-right: 8px;
+}
+
+.information label span {
+  color: #999;
+  font-size: 12px;
+}
