@@ -165,13 +165,12 @@ nav ul li a {
 
 .platform-content{
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: #111;
-  background: rgba(255, 255, 255, 0.3);
-  backdrop-filter:blur(4px);
+  background: transparent;
   padding: 20px 30px;
   border-radius: 12px;
 }
@@ -180,6 +179,7 @@ nav ul li a {
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 10px;
+  white-space: nowrap;
 }
 
 .platform-content p{
@@ -193,15 +193,15 @@ nav ul li a {
   align-items: center;
   justify-content: space-between;
   background: #fff;
-  border-radius: 30px;
-  padding: 8px 14px;
+  border-radius: 12px;
+  padding: 12px 20px;
+  width: 380px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 280px;
   margin: 0 auto;
 }
 
 .search-box input{
-  borber: none;
+  border: none;
   outline: none;
   font-size: 14px;
   width: 100%;
@@ -293,6 +293,7 @@ nav ul li a {
   font-weight: 700;
   color: #16a34a;
   margin-bottom: 12px;
+  text-align: right;
 }
 
 .price small {
