@@ -22,7 +22,7 @@
             <a href="#"
               ><img
                 src="src/img/33408b0a8c5a10c25cd7a6d14d87414108442484.png"
-                alt="main image"
+                alt="main image - logo"
                 class="picture"
             /></a>
             <nav>
@@ -349,6 +349,16 @@
           <p>© 2022 Robert Locke Gibraltar</p>
         </div>
       </footer>
+
+      <script>
+        const logo=document.querySelector('.picture');
+        if (logo) {
+          logo.addEventListener('click', (event) => {
+            event.preventDefault();
+            window.location.href = 'property.html';
+          });
+        }
+      </script>
     </main>
   </body>
 </html>
