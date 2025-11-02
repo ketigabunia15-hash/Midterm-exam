@@ -290,11 +290,16 @@ nav ul li a {
 .price {
   font-size: 18px;
   font-weight: 700;
-  color: #16a34a;
   margin-bottom: 12px;
   text-align: right;
 }
 
+.price span {
+  color: #16a34a;
+  margin-left: 2px;
+  font-size: 20px;
+  font-weight: 800;
+}
 .price small {
   color: #666;
   font-size: 12px;
@@ -614,7 +619,7 @@ nav ul li a {
 }
 
 .price span {
-  color: #222;
+  color: #16a34a;
   margin-left: 2px;
 }
 
